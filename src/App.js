@@ -1,10 +1,12 @@
 import "./App.css";
 import Button from "./Components/Button";
+import Input from "./Components/Input";
 
 function App() {
   return (
     <div className="App">
       <div className="calc-wrapper">
+      <Input/>
         <div className="row">
           <Button symbol="7" />
           <Button symbol="8" />
@@ -29,6 +31,7 @@ function App() {
           <Button symbol="=" />
           <Button symbol="-" />
         </div>
+        <Button symbol="Clear" />
       </div>
     </div>
   );
