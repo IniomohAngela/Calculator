@@ -1,20 +1,19 @@
-body{
+body {
   background-color: black;
 }
 
-.App{  
+.App {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.calc-wrapper{
+.calc-wrapper {
   background-color: white;
   width: 400px;
   border-radius: 16px;
 }
 
-.row{
+.row {
   display: flex;
-  
 }
